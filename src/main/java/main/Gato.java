@@ -18,7 +18,7 @@ public class Gato extends Animal {
     public String toString() {
         return "Gato{" +
                 "ruido='" + ruido + '\'' +
-                ", nombre='" + nombre + '\'' +
+                ", nombre='" + name + '\'' +
                 '}';
     }
 }

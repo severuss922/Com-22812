@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 public class Animal {
-    protected String nombre;
+    protected String name;
 
     public String message(){
        return "hola soy un animal";
