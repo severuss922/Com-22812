@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 public class Animal {
     protected String nombre;
 
-    public void message(){
-        System.out.println("animal");
+    public String message(){
+       return "hola soy un animal";
     }
 }
