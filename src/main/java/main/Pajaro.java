@@ -13,14 +13,14 @@ public class Pajaro extends Animal{
 
     public Pajaro(String name, String attrPajaro) {
         super(name);
-        this.attrPajaro = attrPajaro;
+        this.nombreNana = attrPajaro;
     }
 
     @Override
     public String toString() {
         return "Pajaro{" +
                 "name='" + name + '\'' +
-                ", attrPajaro='" + attrPajaro + '\'' +
+                ", attrPajaro='" + nombreNana + '\'' +
                 ", nivel=" + nivel +
                 '}';
     }
