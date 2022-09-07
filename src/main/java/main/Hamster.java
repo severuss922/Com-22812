@@ -13,4 +13,8 @@ public class Hamster extends Animal{
         super(name);
         this.atributoHamster = atributoHamster;
     }
+
+    public void saludoHamster(){
+        System.out.println("hola soy un hamster");
+    }
 }
