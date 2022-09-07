@@ -7,7 +7,7 @@ import lombok.Setter;
 @Setter
 public class Pajaro extends Animal{
 
-    private String attrPajaro;
+    private String nombreNana;
 
     public Pajaro(String name, String attrPajaro) {
         super(name);
